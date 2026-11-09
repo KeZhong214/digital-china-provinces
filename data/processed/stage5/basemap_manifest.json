@@ -1,0 +1,9 @@
+{
+  "file": "data/raw/geo/china_provinces_100000_full.json",
+  "source": "阿里云 DataV 全国省级边界 GeoJSON（https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json）",
+  "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275",
+  "bytes": 582522,
+  "features": 35,
+  "note": "34个省级区划 + 1个九段线要素（adcode=100000_JD）；仅作示意底图，不作测绘用途；研究范围为31个省级行政区，不含港澳台。",
+  "projection": "Albers 等积圆锥（标准纬线25°N/47°N，中央经线105°E，原点35°N）"
+}

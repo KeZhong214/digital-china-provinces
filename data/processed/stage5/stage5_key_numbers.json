@@ -1,0 +1,532 @@
+{
+  "meta": {
+    "stage": "stage5",
+    "route": "方案B：D1/D2连续分项 + D3档级分类 + 案例；不合成三维总分",
+    "route_statement": "基于公开数据的31省数字化发展分项画像研究",
+    "n_provinces": 31,
+    "region_rule": "东部10、中部6、西部12、东北3（本研究固定口径，不含港澳台）"
+  },
+  "descriptive": {
+    "d1": {
+      "metric": "d1",
+      "metric_label": "D1 调查企业交易型数字应用（企业电商参与比例）",
+      "unit": "%",
+      "n": 31,
+      "mean": 12.0124,
+      "median": 11.9554,
+      "sd_population": 3.1446,
+      "cv_pct": 26.1778,
+      "minimum": 7.6888,
+      "maximum": 23.287,
+      "range": 15.5982,
+      "p25": 9.4522,
+      "p75": 12.9616,
+      "iqr": 3.5093
+    },
+    "d2": {
+      "metric": "d2",
+      "metric_label": "D2 固定宽带接入配置（每百人固定宽带账户数）",
+      "unit": "户/百人",
+      "n": 31,
+      "mean": 48.2298,
+      "median": 48.7428,
+      "sd_population": 5.1406,
+      "cv_pct": 10.6585,
+      "minimum": 39.511,
+      "maximum": 58.1393,
+      "range": 18.6284,
+      "p25": 44.4176,
+      "p75": 51.7872,
+      "iqr": 7.3696
+    }
+  },
+  "national": {
+    "ecommerce_weighted_rate_pct": 12.7715,
+    "ecommerce_ent_national": 205026.0,
+    "survey_ent_national": 1605346.0,
+    "note": "全国合计=205026/1605346，为调查企业数加权口径，不是31省等权均值"
+  },
+  "region_orders": {
+    "d1_mean_order": [
+      "东部",
+      "西部",
+      "中部",
+      "东北"
+    ],
+    "d1_median_order": [
+      "东部",
+      "中部",
+      "西部",
+      "东北"
+    ],
+    "d2_mean_order": [
+      "东部",
+      "西部",
+      "中部",
+      "东北"
+    ],
+    "d2_median_order": [
+      "东部",
+      "西部",
+      "中部",
+      "东北"
+    ]
+  },
+  "regional": [
+    {
+      "metric": "d1",
+      "region": "东部",
+      "n": 10,
+      "mean": 13.8271,
+      "median": 13.5089,
+      "mean_minus_median": 0.3181,
+      "min": 8.5328,
+      "max": 23.287,
+      "mean_rank": 1.0,
+      "median_rank": 1.0
+    },
+    {
+      "metric": "d1",
+      "region": "中部",
+      "n": 6,
+      "mean": 11.3628,
+      "median": 12.2282,
+      "mean_minus_median": -0.8654,
+      "min": 8.9577,
+      "max": 13.2563,
+      "mean_rank": 3.0,
+      "median_rank": 2.0
+    },
+    {
+      "metric": "d1",
+      "region": "西部",
+      "n": 12,
+      "mean": 11.7957,
+      "median": 11.4006,
+      "mean_minus_median": 0.3951,
+      "min": 8.9007,
+      "max": 16.9985,
+      "mean_rank": 2.0,
+      "median_rank": 3.0
+    },
+    {
+      "metric": "d1",
+      "region": "东北",
+      "n": 3,
+      "mean": 8.1293,
+      "median": 8.3225,
+      "mean_minus_median": -0.1933,
+      "min": 7.6888,
+      "max": 8.3764,
+      "mean_rank": 4.0,
+      "median_rank": 4.0
+    },
+    {
+      "metric": "d2",
+      "region": "东部",
+      "n": 10,
+      "mean": 50.8464,
+      "median": 52.0282,
+      "mean_minus_median": -1.1818,
+      "min": 39.511,
+      "max": 58.1393,
+      "mean_rank": 1.0,
+      "median_rank": 1.0
+    },
+    {
+      "metric": "d2",
+      "region": "中部",
+      "n": 6,
+      "mean": 47.7471,
+      "median": 47.2159,
+      "mean_minus_median": 0.5312,
+      "min": 44.7653,
+      "max": 51.9615,
+      "mean_rank": 3.0,
+      "median_rank": 3.0
+    },
+    {
+      "metric": "d2",
+      "region": "西部",
+      "n": 12,
+      "mean": 47.966,
+      "median": 50.2327,
+      "mean_minus_median": -2.2667,
+      "min": 40.9108,
+      "max": 53.1413,
+      "mean_rank": 2.0,
+      "median_rank": 2.0
+    },
+    {
+      "metric": "d2",
+      "region": "东北",
+      "n": 3,
+      "mean": 41.5285,
+      "median": 41.9908,
+      "mean_minus_median": -0.4622,
+      "min": 39.6634,
+      "max": 42.9314,
+      "mean_rank": 4.0,
+      "median_rank": 4.0
+    }
+  ],
+  "map_classes": [
+    {
+      "metric": "d1",
+      "label": "D1 调查企业交易型数字应用（%）",
+      "breaks": [
+        8.9292,
+        11.3527,
+        12.2793,
+        13.2029
+      ],
+      "class_counts": [
+        6,
+        6,
+        6,
+        6,
+        7
+      ],
+      "classes": [
+        {
+          "class_id": 0,
+          "lower": "",
+          "upper": 8.9292,
+          "break_value": 8.9292,
+          "color": "#EEF2F1",
+          "n": 6,
+          "provinces": "天津、河北、辽宁、吉林、黑龙江、新疆"
+        },
+        {
+          "class_id": 1,
+          "lower": 8.9292,
+          "upper": 11.3527,
+          "break_value": 11.3527,
+          "color": "#CFDEDA",
+          "n": 6,
+          "provinces": "山西、内蒙古、河南、广西、甘肃、宁夏"
+        },
+        {
+          "class_id": 2,
+          "lower": 11.3527,
+          "upper": 12.2793,
+          "break_value": 12.2793,
+          "color": "#9DBAB7",
+          "n": 6,
+          "provinces": "江苏、安徽、贵州、西藏、陕西、青海"
+        },
+        {
+          "class_id": 3,
+          "lower": 12.2793,
+          "upper": 13.2029,
+          "break_value": 13.2029,
+          "color": "#648F92",
+          "n": 6,
+          "provinces": "福建、江西、湖南、广东、四川、云南"
+        },
+        {
+          "class_id": 4,
+          "lower": 13.2029,
+          "upper": "",
+          "break_value": "",
+          "color": "#2E6373",
+          "n": 7,
+          "provinces": "北京、上海、浙江、山东、湖北、海南、重庆"
+        }
+      ]
+    },
+    {
+      "metric": "d2",
+      "label": "D2 固定宽带接入配置（户/百人）",
+      "breaks": [
+        42.9792,
+        45.5678,
+        50.3839,
+        52.001
+      ],
+      "class_counts": [
+        6,
+        6,
+        6,
+        6,
+        7
+      ],
+      "classes": [
+        {
+          "class_id": 0,
+          "lower": "",
+          "upper": 42.9792,
+          "break_value": 42.9792,
+          "color": "#EEF2F1",
+          "n": 6,
+          "provinces": "内蒙古、辽宁、吉林、黑龙江、广东、云南"
+        },
+        {
+          "class_id": 1,
+          "lower": 42.9792,
+          "upper": 45.5678,
+          "break_value": 45.5678,
+          "color": "#CFDEDA",
+          "n": 6,
+          "provinces": "北京、河北、河南、湖南、贵州、西藏"
+        },
+        {
+          "class_id": 2,
+          "lower": 45.5678,
+          "upper": 50.3839,
+          "break_value": 50.3839,
+          "color": "#9DBAB7",
+          "n": 6,
+          "provinces": "山西、江西、山东、湖北、广西、四川"
+        },
+        {
+          "class_id": 3,
+          "lower": 50.3839,
+          "upper": 52.001,
+          "break_value": 52.001,
+          "color": "#648F92",
+          "n": 6,
+          "provinces": "天津、安徽、重庆、陕西、甘肃、新疆"
+        },
+        {
+          "class_id": 4,
+          "lower": 52.001,
+          "upper": "",
+          "break_value": "",
+          "color": "#2E6373",
+          "n": 7,
+          "provinces": "上海、江苏、浙江、福建、海南、青海、宁夏"
+        }
+      ]
+    }
+  ],
+  "quadrant": {
+    "x_mean": 48.2298,
+    "y_mean": 12.0124,
+    "counts": [
+      {
+        "quadrant": "配置低于均值·应用低于均值",
+        "n": 8
+      },
+      {
+        "quadrant": "配置低于均值·应用高于均值",
+        "n": 7
+      },
+      {
+        "quadrant": "配置高于均值·应用低于均值",
+        "n": 9
+      },
+      {
+        "quadrant": "配置高于均值·应用高于均值",
+        "n": 7
+      }
+    ]
+  },
+  "cases": {
+    "beijing": {
+      "d1": 23.287,
+      "d1_rank": 1,
+      "d2": 45.4466,
+      "d2_rank": 20,
+      "rank_gap": -19,
+      "tier": "优秀",
+      "region": "东部"
+    },
+    "hebei": {
+      "d1": 8.5328,
+      "d1_rank": 28,
+      "d2": 45.347,
+      "d2_rank": 21,
+      "rank_gap": 7,
+      "tier": "良好",
+      "region": "东部"
+    },
+    "ningxia": {
+      "d1": 11.0341,
+      "d1_rank": 21,
+      "d2": 53.1413,
+      "d2_rank": 5,
+      "rank_gap": 16,
+      "tier": "良好",
+      "region": "西部"
+    },
+    "guangdong": {
+      "d1": 12.7737,
+      "d1_rank": 9,
+      "d2": 39.511,
+      "d2_rank": 31,
+      "rank_gap": -22,
+      "tier": "优秀",
+      "region": "东部"
+    },
+    "chongqing": {
+      "d1": 16.9985,
+      "d1_rank": 3,
+      "d2": 50.4514,
+      "d2_rank": 13,
+      "rank_gap": -10,
+      "tier": "优秀",
+      "region": "西部"
+    },
+    "shandong": {
+      "d1": 17.0409,
+      "d1_rank": 2,
+      "d2": 48.0575,
+      "d2_rank": 17,
+      "rank_gap": -15,
+      "tier": "优秀",
+      "region": "东部"
+    },
+    "beijing_hebei_d1_gap_pp": 14.7542,
+    "beijing_hebei_d2_gap": 0.0996,
+    "guangdong_quality": {
+      "fixed_broadband_wan": 5049.5,
+      "gigabit_wan": 1503.5,
+      "gigabit_share_pct": 29.775225,
+      "source": "C303 广东省通信管理局2024年12月运行情况（同段原值）",
+      "note": "仅单省同段派生，不能用于31省质量排名"
+    }
+  },
+  "rank_gap": {
+    "mean_abs_gap": 9.2258,
+    "median_abs_gap": 8.0,
+    "max_abs_gap": 22,
+    "n_abs_ge_10": 15,
+    "n_abs_ge_15": 8,
+    "top5_gaps": [
+      {
+        "short_name": "广东",
+        "region_4": "东部",
+        "d1_rank": 9,
+        "d2_rank": 31,
+        "rank_gap_d1_minus_d2": -22
+      },
+      {
+        "short_name": "北京",
+        "region_4": "东部",
+        "d1_rank": 1,
+        "d2_rank": 20,
+        "rank_gap_d1_minus_d2": -19
+      },
+      {
+        "short_name": "天津",
+        "region_4": "东部",
+        "d1_rank": 27,
+        "d2_rank": 9,
+        "rank_gap_d1_minus_d2": 18
+      },
+      {
+        "short_name": "云南",
+        "region_4": "西部",
+        "d1_rank": 13,
+        "d2_rank": 29,
+        "rank_gap_d1_minus_d2": -16
+      },
+      {
+        "short_name": "新疆",
+        "region_4": "西部",
+        "d1_rank": 26,
+        "d2_rank": 10,
+        "rank_gap_d1_minus_d2": 16
+      }
+    ]
+  },
+  "correlation": {
+    "pearson": 0.179009,
+    "spearman": 0.267339,
+    "n": 31
+  },
+  "government_tiers": {
+    "national": {
+      "excellent": 13,
+      "good": 14,
+      "medium": 4,
+      "n": 31
+    },
+    "by_region": [
+      {
+        "region": "东部",
+        "n": 10,
+        "excellent": 7,
+        "good": 3,
+        "medium": 0,
+        "excellent_pct": 70.0,
+        "good_pct": 30.0,
+        "medium_pct": 0.0
+      },
+      {
+        "region": "中部",
+        "n": 6,
+        "excellent": 1,
+        "good": 5,
+        "medium": 0,
+        "excellent_pct": 16.6667,
+        "good_pct": 83.3333,
+        "medium_pct": 0.0
+      },
+      {
+        "region": "西部",
+        "n": 12,
+        "excellent": 5,
+        "good": 5,
+        "medium": 2,
+        "excellent_pct": 41.6667,
+        "good_pct": 41.6667,
+        "medium_pct": 16.6667
+      },
+      {
+        "region": "东北",
+        "n": 3,
+        "excellent": 0,
+        "good": 1,
+        "medium": 2,
+        "excellent_pct": 0.0,
+        "good_pct": 33.3333,
+        "medium_pct": 66.6667
+      },
+      {
+        "region": "全国31省",
+        "n": 31,
+        "excellent": 13,
+        "good": 14,
+        "medium": 4,
+        "excellent_pct": 41.9355,
+        "good_pct": 45.1613,
+        "medium_pct": 12.9032
+      }
+    ],
+    "medium_provinces": [
+      "辽宁",
+      "黑龙江",
+      "西藏",
+      "新疆"
+    ],
+    "excellent_provinces": [
+      "北京",
+      "内蒙古",
+      "上海",
+      "浙江",
+      "安徽",
+      "福建",
+      "山东",
+      "广东",
+      "海南",
+      "重庆",
+      "四川",
+      "贵州",
+      "云南"
+    ]
+  },
+  "fragility": {
+    "west_mean_d1": 11.7957,
+    "central_mean_d1": 11.3628,
+    "west_median_d1": 11.4006,
+    "central_median_d1": 12.2282,
+    "west_mean_d1_without_chongqing": 11.3227,
+    "note": "删重庆后西部D1均值低于中部（见stage3 leave_one_province_out），仅作单省影响诊断"
+  },
+  "claims": {
+    "d1_central_west": "中西部整体接近；等权均值西部略高、中位数中部略高，且西部均值受个别省份拉动，排序不稳健，不宜下“谁更高”的定论。",
+    "northeast": "在本研究采用的三个分项中整体相对靠后；但东北仅3省，样本小，只应理解为指标体系内的相对位置，不能外推为数字化各方面全面落后。"
+  }
+}
