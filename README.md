@@ -1,5 +1,9 @@
 # 数字中国的省际图景：第一阶段数据项目
 
+第二阶段研究已增补：优先阅读 `reports/stage2_summary.md`、`reports/stage2_indicator_shortlist.md`、`reports/stage2_preanalysis.md`。全部新增值在 `data/processed/stage2/new_values_31_provinces.csv`，四张分项图及PDF在 `reports/figures_stage2/`。第一阶段报告保留作为历史基线。
+
+第二阶段数据已并入现有候选库；下文的第一阶段 `pipeline.py build` 会重建第一阶段快照，不作为第二阶段入口。第二阶段研究脚本为 `stage2_update_data.py`、`stage2_preanalysis.py`、`stage2_reports.py`，未改变原表结构或进行工程重构。
+
 本项目按用户任务书完成候选数据采集、逐值溯源、覆盖率及来源审计。**尚未批准最终指标、权重，也未计算自主综合排名或制作PPT。** 原始大纲保留在 `PROJECT_PLAN.md`，核验后的修正见 `reports/change_log.md`。
 
 ## 先看这几个文件

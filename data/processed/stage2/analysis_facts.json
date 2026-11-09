@@ -1,0 +1,362 @@
+{
+  "infrastructure": {
+    "indicator_id": "BB_ACCOUNTS_PER100",
+    "period": "2024",
+    "name": "每百人固定宽带账户数",
+    "unit": "户/百人",
+    "source_note": "国家统计局年鉴2025表16-36（I203）及表2-5（A01）；宽带用户万户/年末人口万人×100。",
+    "time_label": "2024年末",
+    "limitation": "包含家庭和机构账户，是人均账户配置；不等于居民上网普及率、千兆比例或地理覆盖率。"
+  },
+  "ecommerce_top": [
+    {
+      "short_name": "北京",
+      "ecommerce_share": 23.28700711053652
+    },
+    {
+      "short_name": "山东",
+      "ecommerce_share": 17.04092127407592
+    },
+    {
+      "short_name": "重庆",
+      "ecommerce_share": 16.998527658977775
+    }
+  ],
+  "ecommerce_bottom": [
+    {
+      "short_name": "黑龙江",
+      "ecommerce_share": 8.376442499005172
+    },
+    {
+      "short_name": "辽宁",
+      "ecommerce_share": 8.322524207414556
+    },
+    {
+      "short_name": "吉林",
+      "ecommerce_share": 7.68882175226586
+    }
+  ],
+  "infra_top": [
+    {
+      "short_name": "海南",
+      "infra_value": 58.13931297709923
+    },
+    {
+      "short_name": "江苏",
+      "infra_value": 57.36922355148957
+    },
+    {
+      "short_name": "浙江",
+      "infra_value": 56.48275862068965
+    }
+  ],
+  "infra_bottom": [
+    {
+      "short_name": "云南",
+      "infra_value": 40.91084854994629
+    },
+    {
+      "short_name": "吉林",
+      "infra_value": 39.663357790246
+    },
+    {
+      "short_name": "广东",
+      "infra_value": 39.510954616588414
+    }
+  ],
+  "region_ecommerce": [
+    {
+      "indicator_id": "NBS_ECOM_SHARE",
+      "period": "2024",
+      "region_4": "东部",
+      "n": 10,
+      "mean": 13.827069446943932,
+      "median": 13.508928407116976,
+      "std_population": 4.046258422548652,
+      "cv_pct": 29.263311637181072,
+      "min": 8.532843661382548,
+      "max": 23.28700711053652,
+      "range": 14.754163449153973,
+      "min_province": "河北",
+      "max_province": "北京",
+      "enterprise_pooled_share": 13.668480922332135
+    },
+    {
+      "indicator_id": "NBS_ECOM_SHARE",
+      "period": "2024",
+      "region_4": "中部",
+      "n": 6,
+      "mean": 11.362758049144452,
+      "median": 12.228192070729829,
+      "std_population": 1.736621429524209,
+      "cv_pct": 15.283449863257156,
+      "min": 8.957682626286587,
+      "max": 13.256333408731056,
+      "range": 4.298650782444469,
+      "min_province": "河南",
+      "max_province": "湖北",
+      "enterprise_pooled_share": 11.493950171756664
+    },
+    {
+      "indicator_id": "NBS_ECOM_SHARE",
+      "period": "2024",
+      "region_4": "西部",
+      "n": 12,
+      "mean": 11.79567958839626,
+      "median": 11.400566243156376,
+      "std_population": 1.8966086859298965,
+      "cv_pct": 16.078842017679452,
+      "min": 8.90073645687435,
+      "max": 16.998527658977775,
+      "range": 8.097791202103425,
+      "min_province": "新疆",
+      "max_province": "重庆",
+      "enterprise_pooled_share": 12.359262574895897
+    },
+    {
+      "indicator_id": "NBS_ECOM_SHARE",
+      "period": "2024",
+      "region_4": "东北",
+      "n": 3,
+      "mean": 8.129262819561863,
+      "median": 8.322524207414556,
+      "std_population": 0.3122157863429759,
+      "cv_pct": 3.840640821596702,
+      "min": 7.68882175226586,
+      "max": 8.376442499005172,
+      "range": 0.6876207467393121,
+      "min_province": "吉林",
+      "max_province": "黑龙江",
+      "enterprise_pooled_share": 8.19925490897851
+    }
+  ],
+  "region_infra": [
+    {
+      "indicator_id": "BB_ACCOUNTS_PER100",
+      "period": "2024",
+      "region_4": "东部",
+      "n": 10,
+      "mean": 50.84642279772608,
+      "median": 52.02822580645161,
+      "std_population": 5.8017502724526455,
+      "cv_pct": 11.41034108836484,
+      "min": 39.510954616588414,
+      "max": 58.13931297709923,
+      "range": 18.628358360510816,
+      "min_province": "广东",
+      "max_province": "海南"
+    },
+    {
+      "indicator_id": "BB_ACCOUNTS_PER100",
+      "period": "2024",
+      "region_4": "中部",
+      "n": 6,
+      "mean": 47.74708834638883,
+      "median": 47.215922546593774,
+      "std_population": 2.7684061713641697,
+      "cv_pct": 5.7980628081032455,
+      "min": 44.765254626089614,
+      "max": 51.96145680222113,
+      "range": 7.196202176131514,
+      "min_province": "湖南",
+      "max_province": "安徽"
+    },
+    {
+      "indicator_id": "BB_ACCOUNTS_PER100",
+      "period": "2024",
+      "region_4": "西部",
+      "n": 12,
+      "mean": 47.965981360937974,
+      "median": 50.23268717635089,
+      "std_population": 4.335066674659703,
+      "cv_pct": 9.037794185922877,
+      "min": 40.91084854994629,
+      "max": 53.141289437585726,
+      "range": 12.230440887639439,
+      "min_province": "云南",
+      "max_province": "宁夏"
+    },
+    {
+      "indicator_id": "BB_ACCOUNTS_PER100",
+      "period": "2024",
+      "region_4": "东北",
+      "n": 3,
+      "mean": 41.52850725252502,
+      "median": 41.99075602509079,
+      "std_population": 1.373631050607133,
+      "cv_pct": 3.3076822199613582,
+      "min": 39.663357790246,
+      "max": 42.931407942238266,
+      "range": 3.268050151992263,
+      "min_province": "吉林",
+      "max_province": "辽宁"
+    }
+  ],
+  "government": [
+    {
+      "region_4": "东部",
+      "category": "优秀",
+      "province_count": 7,
+      "region_n": 10,
+      "share_pct": 70.0
+    },
+    {
+      "region_4": "中部",
+      "category": "优秀",
+      "province_count": 1,
+      "region_n": 6,
+      "share_pct": 16.666666666666664
+    },
+    {
+      "region_4": "西部",
+      "category": "优秀",
+      "province_count": 5,
+      "region_n": 12,
+      "share_pct": 41.66666666666667
+    },
+    {
+      "region_4": "东北",
+      "category": "优秀",
+      "province_count": 0,
+      "region_n": 3,
+      "share_pct": 0.0
+    },
+    {
+      "region_4": "东部",
+      "category": "良好",
+      "province_count": 3,
+      "region_n": 10,
+      "share_pct": 30.0
+    },
+    {
+      "region_4": "中部",
+      "category": "良好",
+      "province_count": 5,
+      "region_n": 6,
+      "share_pct": 83.33333333333334
+    },
+    {
+      "region_4": "西部",
+      "category": "良好",
+      "province_count": 5,
+      "region_n": 12,
+      "share_pct": 41.66666666666667
+    },
+    {
+      "region_4": "东北",
+      "category": "良好",
+      "province_count": 1,
+      "region_n": 3,
+      "share_pct": 33.33333333333333
+    },
+    {
+      "region_4": "东部",
+      "category": "中等",
+      "province_count": 0,
+      "region_n": 10,
+      "share_pct": 0.0
+    },
+    {
+      "region_4": "中部",
+      "category": "中等",
+      "province_count": 0,
+      "region_n": 6,
+      "share_pct": 0.0
+    },
+    {
+      "region_4": "西部",
+      "category": "中等",
+      "province_count": 2,
+      "region_n": 12,
+      "share_pct": 16.666666666666664
+    },
+    {
+      "region_4": "东北",
+      "category": "中等",
+      "province_count": 2,
+      "region_n": 3,
+      "share_pct": 66.66666666666666
+    }
+  ],
+  "spearman_exploratory": 0.2673387096774194,
+  "case_candidates": [
+    {
+      "province_code": "440000",
+      "province_name": "广东省",
+      "short_name": "广东",
+      "region_4": "东部",
+      "display_order": 19,
+      "ecommerce_share": 12.773739567957964,
+      "infra_value": 39.510954616588414,
+      "rank_ecommerce_share": 9,
+      "rank_infra_value": 31,
+      "single_indicator_rank_gap": -22,
+      "gov_category_2024": "优秀"
+    },
+    {
+      "province_code": "110000",
+      "province_name": "北京市",
+      "short_name": "北京",
+      "region_4": "东部",
+      "display_order": 1,
+      "ecommerce_share": 23.28700711053652,
+      "infra_value": 45.44663307375172,
+      "rank_ecommerce_share": 1,
+      "rank_infra_value": 20,
+      "single_indicator_rank_gap": -19,
+      "gov_category_2024": "优秀"
+    },
+    {
+      "province_code": "120000",
+      "province_name": "天津市",
+      "short_name": "天津",
+      "region_4": "东部",
+      "display_order": 2,
+      "ecommerce_share": 8.840207925470871,
+      "infra_value": 51.61290322580645,
+      "rank_ecommerce_share": 27,
+      "rank_infra_value": 9,
+      "single_indicator_rank_gap": 18,
+      "gov_category_2024": "良好"
+    },
+    {
+      "province_code": "530000",
+      "province_name": "云南省",
+      "short_name": "云南",
+      "region_4": "西部",
+      "display_order": 25,
+      "ecommerce_share": 12.317678218375798,
+      "infra_value": 40.91084854994629,
+      "rank_ecommerce_share": 13,
+      "rank_infra_value": 29,
+      "single_indicator_rank_gap": -16,
+      "gov_category_2024": "优秀"
+    },
+    {
+      "province_code": "650000",
+      "province_name": "新疆维吾尔自治区",
+      "short_name": "新疆",
+      "region_4": "西部",
+      "display_order": 31,
+      "ecommerce_share": 8.90073645687435,
+      "infra_value": 51.52878383530308,
+      "rank_ecommerce_share": 26,
+      "rank_infra_value": 10,
+      "single_indicator_rank_gap": 16,
+      "gov_category_2024": "中等"
+    },
+    {
+      "province_code": "640000",
+      "province_name": "宁夏回族自治区",
+      "short_name": "宁夏",
+      "region_4": "西部",
+      "display_order": 30,
+      "ecommerce_share": 11.034060779114828,
+      "infra_value": 53.141289437585726,
+      "rank_ecommerce_share": 21,
+      "rank_infra_value": 5,
+      "single_indicator_rank_gap": 16,
+      "gov_category_2024": "良好"
+    }
+  ]
+}
