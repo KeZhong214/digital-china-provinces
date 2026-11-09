@@ -1,0 +1,493 @@
+{
+  "scenario_counts": {
+    "base": 1,
+    "weight_grid": 36,
+    "standardization": 2,
+    "dimension_drop": 3,
+    "total_unique": 42
+  },
+  "special_weight_schemes": {
+    "D1_50": 16,
+    "D2_50": 24,
+    "D3_50": 11
+  },
+  "guangdong_drop": {
+    "D1": 23,
+    "D2": 6,
+    "D3": 27
+  },
+  "provinces": {
+    "浙江": {
+      "base_rank": 1,
+      "composite": 77.71,
+      "D1_z": 42.03,
+      "D2_z": 91.11,
+      "D3_z": 100.0,
+      "D1_raw": 14.24,
+      "D2_raw": 56.48,
+      "D3_raw": 83.03,
+      "weight_range": [
+        1,
+        2
+      ],
+      "std_range": [
+        1,
+        2
+      ],
+      "drop_range": [
+        1,
+        2
+      ],
+      "all_range": [
+        1,
+        2
+      ],
+      "weight_top5_freq": 1.0,
+      "all_top5_freq": 1.0
+    },
+    "北京": {
+      "base_rank": 2,
+      "composite": 75.6,
+      "D1_z": 100.0,
+      "D2_z": 31.86,
+      "D3_z": 94.94,
+      "D1_raw": 23.29,
+      "D2_raw": 45.45,
+      "D3_raw": 81.64,
+      "weight_range": [
+        1,
+        5
+      ],
+      "std_range": [
+        1,
+        4
+      ],
+      "drop_range": [
+        1,
+        7
+      ],
+      "all_range": [
+        1,
+        7
+      ],
+      "weight_top5_freq": 1.0,
+      "all_top5_freq": 0.9762
+    },
+    "上海": {
+      "base_rank": 3,
+      "composite": 68.22,
+      "D1_z": 45.6,
+      "D2_z": 69.42,
+      "D3_z": 89.63,
+      "D1_raw": 14.8,
+      "D2_raw": 52.44,
+      "D3_raw": 80.18,
+      "weight_range": [
+        2,
+        5
+      ],
+      "std_range": [
+        2,
+        3
+      ],
+      "drop_range": [
+        3,
+        6
+      ],
+      "all_range": [
+        2,
+        6
+      ],
+      "weight_top5_freq": 1.0,
+      "all_top5_freq": 0.9762
+    },
+    "海南": {
+      "base_rank": 4,
+      "composite": 65.07,
+      "D1_z": 46.07,
+      "D2_z": 100.0,
+      "D3_z": 49.15,
+      "D1_raw": 14.87,
+      "D2_raw": 58.14,
+      "D3_raw": 69.05,
+      "weight_range": [
+        2,
+        5
+      ],
+      "std_range": [
+        3,
+        4
+      ],
+      "drop_range": [
+        1,
+        9
+      ],
+      "all_range": [
+        1,
+        9
+      ],
+      "weight_top5_freq": 1.0,
+      "all_top5_freq": 0.9762
+    },
+    "江苏": {
+      "base_rank": 5,
+      "composite": 63.66,
+      "D1_z": 23.91,
+      "D2_z": 95.87,
+      "D3_z": 71.19,
+      "D1_raw": 11.42,
+      "D2_raw": 57.37,
+      "D3_raw": 75.11,
+      "weight_range": [
+        2,
+        7
+      ],
+      "std_range": [
+        5,
+        5
+      ],
+      "drop_range": [
+        2,
+        10
+      ],
+      "all_range": [
+        2,
+        10
+      ],
+      "weight_top5_freq": 0.8056,
+      "all_top5_freq": 0.8095
+    },
+    "重庆": {
+      "base_rank": 6,
+      "composite": 57.17,
+      "D1_z": 59.68,
+      "D2_z": 58.73,
+      "D3_z": 53.11,
+      "D1_raw": 17.0,
+      "D2_raw": 50.45,
+      "D3_raw": 70.14,
+      "weight_range": [
+        5,
+        9
+      ],
+      "std_range": [
+        6,
+        8
+      ],
+      "drop_range": [
+        5,
+        9
+      ],
+      "all_range": [
+        5,
+        9
+      ],
+      "weight_top5_freq": 0.1389,
+      "all_top5_freq": 0.1667
+    },
+    "广东": {
+      "base_rank": 18,
+      "composite": 35.57,
+      "D1_z": 32.6,
+      "D2_z": 0.0,
+      "D3_z": 74.1,
+      "D1_raw": 12.77,
+      "D2_raw": 39.51,
+      "D3_raw": 75.91,
+      "weight_range": [
+        11,
+        24
+      ],
+      "std_range": [
+        14,
+        16
+      ],
+      "drop_range": [
+        6,
+        27
+      ],
+      "all_range": [
+        6,
+        27
+      ],
+      "weight_top5_freq": 0.0,
+      "all_top5_freq": 0.0
+    },
+    "宁夏": {
+      "base_rank": 20,
+      "composite": 33.92,
+      "D1_z": 21.45,
+      "D2_z": 73.17,
+      "D3_z": 7.13,
+      "D1_raw": 11.03,
+      "D2_raw": 53.14,
+      "D3_raw": 57.5,
+      "weight_range": [
+        12,
+        26
+      ],
+      "std_range": [
+        20,
+        21
+      ],
+      "drop_range": [
+        9,
+        28
+      ],
+      "all_range": [
+        9,
+        28
+      ],
+      "weight_top5_freq": 0.0,
+      "all_top5_freq": 0.0
+    },
+    "青海": {
+      "base_rank": 19,
+      "composite": 34.89,
+      "D1_z": 23.84,
+      "D2_z": 67.26,
+      "D3_z": 13.57,
+      "D1_raw": 11.41,
+      "D2_raw": 52.04,
+      "D3_raw": 59.27,
+      "weight_range": [
+        14,
+        22
+      ],
+      "std_range": [
+        17,
+        20
+      ],
+      "drop_range": [
+        12,
+        26
+      ],
+      "all_range": [
+        12,
+        26
+      ],
+      "weight_top5_freq": 0.0,
+      "all_top5_freq": 0.0
+    },
+    "新疆": {
+      "base_rank": 24,
+      "composite": 25.93,
+      "D1_z": 7.77,
+      "D2_z": 64.51,
+      "D3_z": 5.49,
+      "D1_raw": 8.9,
+      "D2_raw": 51.53,
+      "D3_raw": 57.05,
+      "weight_range": [
+        20,
+        29
+      ],
+      "std_range": [
+        24,
+        25
+      ],
+      "drop_range": [
+        18,
+        31
+      ],
+      "all_range": [
+        18,
+        31
+      ],
+      "weight_top5_freq": 0.0,
+      "all_top5_freq": 0.0
+    },
+    "河北": {
+      "base_rank": 23,
+      "composite": 28.03,
+      "D1_z": 5.41,
+      "D2_z": 31.33,
+      "D3_z": 47.36,
+      "D1_raw": 8.53,
+      "D2_raw": 45.35,
+      "D3_raw": 68.56,
+      "weight_range": [
+        20,
+        25
+      ],
+      "std_range": [
+        23,
+        23
+      ],
+      "drop_range": [
+        20,
+        26
+      ],
+      "all_range": [
+        20,
+        26
+      ],
+      "weight_top5_freq": 0.0,
+      "all_top5_freq": 0.0
+    },
+    "吉林": {
+      "base_rank": 31,
+      "composite": 4.88,
+      "D1_z": 0.0,
+      "D2_z": 0.82,
+      "D3_z": 13.82,
+      "D1_raw": 7.69,
+      "D2_raw": 39.66,
+      "D3_raw": 59.34,
+      "weight_range": [
+        31,
+        31
+      ],
+      "std_range": [
+        31,
+        31
+      ],
+      "drop_range": [
+        30,
+        31
+      ],
+      "all_range": [
+        30,
+        31
+      ],
+      "weight_top5_freq": 0.0,
+      "all_top5_freq": 0.0
+    }
+  },
+  "contrast": [
+    {
+      "group": "A",
+      "province_a": "浙江",
+      "province_b": "北京",
+      "composite_a": 77.71,
+      "composite_b": 75.6,
+      "composite_gap": 2.11,
+      "D1_z_a": 42.03,
+      "D1_z_b": 100.0,
+      "D1_gap": -57.97,
+      "D2_z_a": 91.11,
+      "D2_z_b": 31.86,
+      "D2_gap": 59.25,
+      "D3_z_a": 100.0,
+      "D3_z_b": 94.94,
+      "D3_gap": 5.06,
+      "L1_technical": 122.3
+    },
+    {
+      "group": "B",
+      "province_a": "广东",
+      "province_b": "宁夏",
+      "composite_a": 35.57,
+      "composite_b": 33.92,
+      "composite_gap": 1.65,
+      "D1_z_a": 32.6,
+      "D1_z_b": 21.45,
+      "D1_gap": 11.15,
+      "D2_z_a": 0.0,
+      "D2_z_b": 73.17,
+      "D2_gap": -73.17,
+      "D3_z_a": 74.1,
+      "D3_z_b": 7.13,
+      "D3_gap": 66.97,
+      "L1_technical": 151.3
+    }
+  ],
+  "region": [
+    {
+      "region": "东部",
+      "n": 10,
+      "mean": 56.73,
+      "median": 59.69,
+      "min": 28.03,
+      "max": 77.71,
+      "range": 49.68,
+      "cv_pct": 28.07,
+      "rank_span": "1—23"
+    },
+    {
+      "region": "中部",
+      "n": 6,
+      "mean": 37.68,
+      "median": 37.64,
+      "min": 24.7,
+      "max": 55.11,
+      "range": 30.41,
+      "cv_pct": 24.18,
+      "rank_span": "9—25"
+    },
+    {
+      "region": "西部",
+      "n": 12,
+      "mean": 34.28,
+      "median": 34.4,
+      "min": 14.21,
+      "max": 57.17,
+      "range": 42.97,
+      "cv_pct": 33.36,
+      "rank_span": "6—30"
+    },
+    {
+      "region": "东北",
+      "n": 3,
+      "mean": 13.38,
+      "median": 16.04,
+      "min": 4.88,
+      "max": 19.21,
+      "range": 14.33,
+      "cv_pct": 45.95,
+      "rank_span": "28—31"
+    }
+  ],
+  "cv_order": [
+    {
+      "region": "东北",
+      "n": 3,
+      "mean": 13.38,
+      "median": 16.04,
+      "min": 4.88,
+      "max": 19.21,
+      "range": 14.33,
+      "cv_pct": 45.95,
+      "rank_span": "28—31"
+    },
+    {
+      "region": "西部",
+      "n": 12,
+      "mean": 34.28,
+      "median": 34.4,
+      "min": 14.21,
+      "max": 57.17,
+      "range": 42.97,
+      "cv_pct": 33.36,
+      "rank_span": "6—30"
+    },
+    {
+      "region": "东部",
+      "n": 10,
+      "mean": 56.73,
+      "median": 59.69,
+      "min": 28.03,
+      "max": 77.71,
+      "range": 49.68,
+      "cv_pct": 28.07,
+      "rank_span": "1—23"
+    },
+    {
+      "region": "中部",
+      "n": 6,
+      "mean": 37.68,
+      "median": 37.64,
+      "min": 24.7,
+      "max": 55.11,
+      "range": 30.41,
+      "cv_pct": 24.18,
+      "rank_span": "9—25"
+    }
+  ],
+  "scenario_stats": {
+    "min_spearman": 0.8649,
+    "mean_spearman": 0.9726,
+    "max_shift_weight": 8,
+    "max_shift_drop": 12
+  }
+}
