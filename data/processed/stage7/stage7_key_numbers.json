@@ -1,0 +1,578 @@
+{
+  "method": {
+    "standardization": "Min–Max per dimension across 31 provinces -> 0–100",
+    "weights_base": {
+      "D1": 0.333333,
+      "D2": 0.333333,
+      "D3": 0.333333
+    },
+    "tie_rule": "同分同名次（方法 min），后续名次跳号；同分判断用6位小数",
+    "tiers": "按基准名次五等分：1–6/7–12/13–18/19–24/25–31"
+  },
+  "sources": {
+    "D1": "NBS_ECOM_SHARE，2024年全年，《中国统计年鉴2025》表16-39（E02）",
+    "D2": "BB_ACCOUNTS_PER100，2024年末，表16-36、表2-5（I203/A01）",
+    "D3": "THU_GOV_G202_SCORE，清华团队数字政府发展指数，载《数字生态指数2025》；具体评价窗口未明确"
+  },
+  "top5": [
+    {
+      "name": "浙江",
+      "score": 77.71,
+      "rank": 1
+    },
+    {
+      "name": "北京",
+      "score": 75.6,
+      "rank": 2
+    },
+    {
+      "name": "上海",
+      "score": 68.22,
+      "rank": 3
+    },
+    {
+      "name": "海南",
+      "score": 65.07,
+      "rank": 4
+    },
+    {
+      "name": "江苏",
+      "score": 63.66,
+      "rank": 5
+    }
+  ],
+  "bottom5": [
+    {
+      "name": "吉林",
+      "score": 4.88,
+      "rank": 31
+    },
+    {
+      "name": "西藏",
+      "score": 14.21,
+      "rank": 30
+    },
+    {
+      "name": "黑龙江",
+      "score": 16.04,
+      "rank": 29
+    },
+    {
+      "name": "辽宁",
+      "score": 19.21,
+      "rank": 28
+    },
+    {
+      "name": "云南",
+      "score": 22.28,
+      "rank": 27
+    }
+  ],
+  "cases": {
+    "北京": {
+      "rank": 2,
+      "tier": 1,
+      "score": 75.6,
+      "z": {
+        "D1": 100.0,
+        "D2": 31.86,
+        "D3": 94.94
+      },
+      "raw": {
+        "D1": 23.287,
+        "D2": 45.4466,
+        "D3": 81.64
+      },
+      "structure": "企业应用相对较强、宽带配置相对较弱"
+    },
+    "河北": {
+      "rank": 23,
+      "tier": 4,
+      "score": 28.03,
+      "z": {
+        "D1": 5.41,
+        "D2": 31.33,
+        "D3": 47.36
+      },
+      "raw": {
+        "D1": 8.5328,
+        "D2": 45.347,
+        "D3": 68.56
+      },
+      "structure": "政府发展相对较强、企业应用相对较弱"
+    },
+    "广东": {
+      "rank": 18,
+      "tier": 3,
+      "score": 35.57,
+      "z": {
+        "D1": 32.6,
+        "D2": 0.0,
+        "D3": 74.1
+      },
+      "raw": {
+        "D1": 12.7737,
+        "D2": 39.511,
+        "D3": 75.91
+      },
+      "structure": "政府发展相对较强、宽带配置相对较弱"
+    },
+    "宁夏": {
+      "rank": 20,
+      "tier": 4,
+      "score": 33.92,
+      "z": {
+        "D1": 21.45,
+        "D2": 73.17,
+        "D3": 7.13
+      },
+      "raw": {
+        "D1": 11.0341,
+        "D2": 53.1413,
+        "D3": 57.5
+      },
+      "structure": "宽带配置相对较强、政府发展相对较弱"
+    },
+    "重庆": {
+      "rank": 6,
+      "tier": 1,
+      "score": 57.17,
+      "z": {
+        "D1": 59.68,
+        "D2": 58.73,
+        "D3": 53.11
+      },
+      "raw": {
+        "D1": 16.9985,
+        "D2": 50.4514,
+        "D3": 70.14
+      },
+      "structure": "三维较均衡"
+    },
+    "浙江": {
+      "rank": 1,
+      "tier": 1,
+      "score": 77.71,
+      "z": {
+        "D1": 42.03,
+        "D2": 91.11,
+        "D3": 100.0
+      },
+      "raw": {
+        "D1": 14.2441,
+        "D2": 56.4828,
+        "D3": 83.03
+      },
+      "structure": "政府发展相对较强、企业应用相对较弱"
+    },
+    "西藏": {
+      "rank": 30,
+      "tier": 5,
+      "score": 14.21,
+      "z": {
+        "D1": 23.75,
+        "D2": 18.87,
+        "D3": 0.0
+      },
+      "raw": {
+        "D1": 11.3934,
+        "D2": 43.027,
+        "D3": 55.54
+      },
+      "structure": "企业应用相对较强、政府发展相对较弱"
+    }
+  },
+  "most_unstable": [
+    {
+      "short_name": "广东",
+      "base_rank": 18,
+      "min_rank": 6,
+      "max_rank": 27,
+      "rank_range": 21
+    },
+    {
+      "short_name": "宁夏",
+      "base_rank": 20,
+      "min_rank": 9,
+      "max_rank": 28,
+      "rank_range": 19
+    },
+    {
+      "short_name": "青海",
+      "base_rank": 19,
+      "min_rank": 12,
+      "max_rank": 26,
+      "rank_range": 14
+    },
+    {
+      "short_name": "新疆",
+      "base_rank": 24,
+      "min_rank": 18,
+      "max_rank": 31,
+      "rank_range": 13
+    },
+    {
+      "short_name": "天津",
+      "base_rank": 12,
+      "min_rank": 8,
+      "max_rank": 18,
+      "rank_range": 10
+    },
+    {
+      "short_name": "湖北",
+      "base_rank": 15,
+      "min_rank": 11,
+      "max_rank": 21,
+      "rank_range": 10
+    }
+  ],
+  "most_stable_top": [
+    {
+      "short_name": "浙江",
+      "base_rank": 1,
+      "min_rank": 1,
+      "max_rank": 2,
+      "rank_range": 1
+    },
+    {
+      "short_name": "上海",
+      "base_rank": 3,
+      "min_rank": 2,
+      "max_rank": 6,
+      "rank_range": 4
+    },
+    {
+      "short_name": "重庆",
+      "base_rank": 6,
+      "min_rank": 5,
+      "max_rank": 9,
+      "rank_range": 4
+    },
+    {
+      "short_name": "福建",
+      "base_rank": 7,
+      "min_rank": 6,
+      "max_rank": 11,
+      "rank_range": 5
+    },
+    {
+      "short_name": "安徽",
+      "base_rank": 9,
+      "min_rank": 5,
+      "max_rank": 10,
+      "rank_range": 5
+    }
+  ],
+  "structure_pairs": [
+    {
+      "a": "广东",
+      "b": "宁夏",
+      "score_gap": 1.65,
+      "l1": 151.3,
+      "a_rank": 18,
+      "b_rank": 20,
+      "a_struct": "政府发展相对较强、宽带配置相对较弱",
+      "b_struct": "宽带配置相对较强、政府发展相对较弱"
+    },
+    {
+      "a": "广东",
+      "b": "青海",
+      "score_gap": 0.68,
+      "l1": 136.5,
+      "a_rank": 18,
+      "b_rank": 19,
+      "a_struct": "政府发展相对较强、宽带配置相对较弱",
+      "b_struct": "宽带配置相对较强、政府发展相对较弱"
+    },
+    {
+      "a": "广东",
+      "b": "山西",
+      "score_gap": 2.88,
+      "l1": 124.7,
+      "a_rank": 18,
+      "b_rank": 22,
+      "a_struct": "政府发展相对较强、宽带配置相对较弱",
+      "b_struct": "宽带配置相对较强、企业应用相对较弱"
+    },
+    {
+      "a": "浙江",
+      "b": "北京",
+      "score_gap": 2.11,
+      "l1": 122.3,
+      "a_rank": 1,
+      "b_rank": 2,
+      "a_struct": "政府发展相对较强、企业应用相对较弱",
+      "b_struct": "企业应用相对较强、宽带配置相对较弱"
+    },
+    {
+      "a": "甘肃",
+      "b": "广东",
+      "score_gap": 0.37,
+      "l1": 121.9,
+      "a_rank": 17,
+      "b_rank": 18,
+      "a_struct": "宽带配置相对较强、企业应用相对较弱",
+      "b_struct": "政府发展相对较强、宽带配置相对较弱"
+    },
+    {
+      "a": "宁夏",
+      "b": "贵州",
+      "score_gap": 0.03,
+      "l1": 97.3,
+      "a_rank": 20,
+      "b_rank": 21,
+      "a_struct": "宽带配置相对较强、政府发展相对较弱",
+      "b_struct": "政府发展相对较强、宽带配置相对较弱"
+    },
+    {
+      "a": "江西",
+      "b": "广东",
+      "score_gap": 1.72,
+      "l1": 94.0,
+      "a_rank": 16,
+      "b_rank": 18,
+      "a_struct": "宽带配置相对较强、企业应用相对较弱",
+      "b_struct": "政府发展相对较强、宽带配置相对较弱"
+    },
+    {
+      "a": "青海",
+      "b": "贵州",
+      "score_gap": 1.0,
+      "l1": 82.6,
+      "a_rank": 19,
+      "b_rank": 21,
+      "a_struct": "宽带配置相对较强、政府发展相对较弱",
+      "b_struct": "政府发展相对较强、宽带配置相对较弱"
+    }
+  ],
+  "region_stats": [
+    {
+      "region": "东部",
+      "metric": "composite",
+      "n": 10,
+      "mean": 56.7258,
+      "median": 59.6901,
+      "min": 28.0341,
+      "max": 77.7111,
+      "range": 49.677,
+      "cv_pct": 28.0715
+    },
+    {
+      "region": "东部",
+      "metric": "D1_minmax",
+      "n": 10,
+      "mean": 39.3523,
+      "median": 37.3127,
+      "min": 5.411,
+      "max": 100.0,
+      "range": 94.589,
+      "cv_pct": 65.9188
+    },
+    {
+      "region": "东部",
+      "metric": "D2_minmax",
+      "n": 10,
+      "mean": 60.8506,
+      "median": 67.1947,
+      "min": 0.0,
+      "max": 100.0,
+      "range": 100.0,
+      "cv_pct": 51.1823
+    },
+    {
+      "region": "东部",
+      "metric": "D3_minmax",
+      "n": 10,
+      "mean": 69.9745,
+      "median": 66.1513,
+      "min": 47.3627,
+      "max": 100.0,
+      "range": 52.6373,
+      "cv_pct": 26.1508
+    },
+    {
+      "region": "中部",
+      "metric": "composite",
+      "n": 6,
+      "mean": 37.6751,
+      "median": 37.635,
+      "min": 24.6972,
+      "max": 55.1119,
+      "range": 30.4148,
+      "cv_pct": 24.182
+    },
+    {
+      "region": "中部",
+      "metric": "D1_minmax",
+      "n": 6,
+      "mean": 23.5536,
+      "median": 29.1019,
+      "min": 8.1347,
+      "max": 35.6933,
+      "range": 27.5587,
+      "cv_pct": 47.2687
+    },
+    {
+      "region": "中部",
+      "metric": "D2_minmax",
+      "n": 6,
+      "mean": 44.2129,
+      "median": 41.3615,
+      "min": 28.2059,
+      "max": 66.8363,
+      "range": 38.6304,
+      "cv_pct": 33.6129
+    },
+    {
+      "region": "中部",
+      "metric": "D3_minmax",
+      "n": 6,
+      "mean": 45.2589,
+      "median": 40.7785,
+      "min": 31.2113,
+      "max": 71.0076,
+      "range": 39.7963,
+      "cv_pct": 31.6681
+    },
+    {
+      "region": "西部",
+      "metric": "composite",
+      "n": 12,
+      "mean": 34.2751,
+      "median": 34.4028,
+      "min": 14.2084,
+      "max": 57.175,
+      "range": 42.9666,
+      "cv_pct": 33.364
+    },
+    {
+      "region": "西部",
+      "metric": "D1_minmax",
+      "n": 12,
+      "mean": 26.3291,
+      "median": 23.796,
+      "min": 7.7696,
+      "max": 59.6845,
+      "range": 51.915,
+      "cv_pct": 46.1815
+    },
+    {
+      "region": "西部",
+      "metric": "D2_minmax",
+      "n": 12,
+      "mean": 45.3879,
+      "median": 57.556,
+      "min": 7.5149,
+      "max": 73.1698,
+      "range": 65.655,
+      "cv_pct": 51.2721
+    },
+    {
+      "region": "西部",
+      "metric": "D3_minmax",
+      "n": 12,
+      "mean": 31.1083,
+      "median": 35.2128,
+      "min": 0.0,
+      "max": 63.2594,
+      "range": 63.2594,
+      "cv_pct": 62.9866
+    },
+    {
+      "region": "东北",
+      "metric": "composite",
+      "n": 3,
+      "mean": 13.3789,
+      "median": 16.0438,
+      "min": 4.8804,
+      "max": 19.2123,
+      "range": 14.3319,
+      "cv_pct": 45.9451
+    },
+    {
+      "region": "东北",
+      "metric": "D1_minmax",
+      "n": 3,
+      "mean": 2.8237,
+      "median": 4.0627,
+      "min": 0.0,
+      "max": 4.4083,
+      "range": 4.4083,
+      "cv_pct": 70.8871
+    },
+    {
+      "region": "东北",
+      "metric": "D2_minmax",
+      "n": 3,
+      "mean": 10.8305,
+      "median": 13.312,
+      "min": 0.8181,
+      "max": 18.3615,
+      "range": 17.5434,
+      "cv_pct": 68.084
+    },
+    {
+      "region": "东北",
+      "metric": "D3_minmax",
+      "n": 3,
+      "mean": 26.4824,
+      "median": 30.4111,
+      "min": 13.8232,
+      "max": 35.2128,
+      "range": 21.3896,
+      "cv_pct": 34.6023
+    },
+    {
+      "region": "东部",
+      "metric": "rank_span",
+      "n": 10,
+      "mean": 8.3,
+      "median": 6.0,
+      "min": 1.0,
+      "max": 23.0,
+      "range": 22.0,
+      "cv_pct": NaN
+    },
+    {
+      "region": "中部",
+      "metric": "rank_span",
+      "n": 6,
+      "mean": 16.8333,
+      "median": 15.5,
+      "min": 9.0,
+      "max": 25.0,
+      "range": 16.0,
+      "cv_pct": NaN
+    },
+    {
+      "region": "西部",
+      "metric": "rank_span",
+      "n": 12,
+      "mean": 18.6667,
+      "median": 19.5,
+      "min": 6.0,
+      "max": 30.0,
+      "range": 24.0,
+      "cv_pct": NaN
+    },
+    {
+      "region": "东北",
+      "metric": "rank_span",
+      "n": 3,
+      "mean": 29.3333,
+      "median": 29.0,
+      "min": 28.0,
+      "max": 31.0,
+      "range": 3.0,
+      "cv_pct": NaN
+    }
+  ],
+  "scenario_stats": {
+    "n_scenarios": 45,
+    "min_spearman": 0.8649,
+    "mean_spearman": 0.9722,
+    "max_rank_shift": 12,
+    "top5_overlap_min": 3
+  },
+  "d3_note": "D3来源报告为2025年版，原报告未明确该分指数评价窗口；本合成不得称为2024年度官方排名。"
+}
