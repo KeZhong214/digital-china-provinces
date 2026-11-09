@@ -1,0 +1,42 @@
+[
+  {
+    "id": "S05_wap",
+    "url": "https://wap.miit.gov.cn/gxsj/tjfx/hlw/art/2024/art_562bd2a7a52a42c7971b7059f4100d81.html",
+    "status": 403,
+    "bytes": 2471,
+    "path": "data\\raw\\S05_wap.html",
+    "sha256": "bdc4747538d4a555930e7af162a864aff76cd9f6fda062d40e7b62b697d12bcf"
+  },
+  {
+    "id": "annual_note",
+    "url": "https://www.miit.gov.cn/txnj2024/tx/编者说明.html",
+    "status": 403,
+    "bytes": 2443,
+    "path": "data\\raw\\annual_note.html",
+    "sha256": "dc4c7e62cca2f5278e8ef43391f0cabf0be3c9327eec16910151c264a58854df"
+  },
+  {
+    "id": "annual_home",
+    "url": "https://www.miit.gov.cn/txnj2024/",
+    "status": 403,
+    "bytes": 2443,
+    "path": "data\\raw\\annual_home.html",
+    "sha256": "dc4c7e62cca2f5278e8ef43391f0cabf0be3c9327eec16910151c264a58854df"
+  },
+  {
+    "id": "annual_table",
+    "url": "https://www.miit.gov.cn/txnj2024/tx/2-3.html",
+    "status": 403,
+    "bytes": 2443,
+    "path": "data\\raw\\annual_table.html",
+    "sha256": "dc4c7e62cca2f5278e8ef43391f0cabf0be3c9327eec16910151c264a58854df"
+  },
+  {
+    "id": "S06",
+    "url": "https://www.miit.gov.cn/gxsj/tjfx/txy/art/2025/art_641c048c5d4f4e308098bf6c4e3dcb4a.html",
+    "status": 403,
+    "bytes": 2497,
+    "path": "data\\raw\\S06.html",
+    "sha256": "3e5acc031d1c7f00612c867375f2f654abdb2c5dbe93ccf3df7b2d91bd4eb6f3"
+  }
+]

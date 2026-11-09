@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.build.sqlite
+
+# 原始文献 PDF/扫描页与核验图像：体积达 141 MB，仅保留在本地，不入库
+work/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

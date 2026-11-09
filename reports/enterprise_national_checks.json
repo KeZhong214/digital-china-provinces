@@ -1,0 +1,58 @@
+[
+  {
+    "indicator_id": "NBS_ENT",
+    "province_sum": 1605346.0,
+    "national": 1605346,
+    "difference": 0.0,
+    "additive": true
+  },
+  {
+    "indicator_id": "NBS_COMP",
+    "province_sum": 68966420.0,
+    "national": 68966420,
+    "difference": 0.0,
+    "additive": true
+  },
+  {
+    "indicator_id": "NBS_COMP100",
+    "province_sum": 1263.0,
+    "national": 41,
+    "difference": 1222.0,
+    "additive": false
+  },
+  {
+    "indicator_id": "NBS_WEBSITES",
+    "province_sum": 575034.0,
+    "national": 575034,
+    "difference": 0.0,
+    "additive": true
+  },
+  {
+    "indicator_id": "NBS_WEB100",
+    "province_sum": 967.0,
+    "national": 36,
+    "difference": 931.0,
+    "additive": false
+  },
+  {
+    "indicator_id": "NBS_ECOM_ENT",
+    "province_sum": 205026.0,
+    "national": 205026,
+    "difference": 0.0,
+    "additive": true
+  },
+  {
+    "indicator_id": "NBS_ECOM_SALES",
+    "province_sum": 386543.8,
+    "national": 386544.0,
+    "difference": -0.2,
+    "additive": true
+  },
+  {
+    "indicator_id": "NBS_ECOM_PURCHASE",
+    "province_sum": 182096.0,
+    "national": 182096.4,
+    "difference": -0.4,
+    "additive": true
+  }
+]
