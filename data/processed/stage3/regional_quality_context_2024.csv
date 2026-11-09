@@ -1,0 +1,9 @@
+﻿area,area_level,indicator_id,numeric_value,unit,period_end,source_id,source_page_or_table,formula_type,stage_status,can_enter_province_index
+东部,region,gigabit_share_region,31.2,%,2024-12-31,I301,五（二）各地区5G和千兆用户占比,主管部门区域用户总数之比，非省份等权均值,阶段3核实既有区域背景，非新增分省表,False
+东部,region,5g_user_share_region,56.6,%,2024-12-31,I301,五（二）各地区5G和千兆用户占比,主管部门区域用户总数之比，非省份等权均值,阶段3核实既有区域背景，非新增分省表,False
+中部,region,gigabit_share_region,31.2,%,2024-12-31,I301,五（二）各地区5G和千兆用户占比,主管部门区域用户总数之比，非省份等权均值,阶段3核实既有区域背景，非新增分省表,False
+中部,region,5g_user_share_region,57.2,%,2024-12-31,I301,五（二）各地区5G和千兆用户占比,主管部门区域用户总数之比，非省份等权均值,阶段3核实既有区域背景，非新增分省表,False
+西部,region,gigabit_share_region,31.7,%,2024-12-31,I301,五（二）各地区5G和千兆用户占比,主管部门区域用户总数之比，非省份等权均值,阶段3核实既有区域背景，非新增分省表,False
+西部,region,5g_user_share_region,56.3,%,2024-12-31,I301,五（二）各地区5G和千兆用户占比,主管部门区域用户总数之比，非省份等权均值,阶段3核实既有区域背景，非新增分省表,False
+东北,region,gigabit_share_region,23.6,%,2024-12-31,I301,五（二）各地区5G和千兆用户占比,主管部门区域用户总数之比，非省份等权均值,阶段3核实既有区域背景，非新增分省表,False
+东北,region,5g_user_share_region,56.2,%,2024-12-31,I301,五（二）各地区5G和千兆用户占比,主管部门区域用户总数之比，非省份等权均值,阶段3核实既有区域背景，非新增分省表,False

@@ -1,0 +1,564 @@
+{
+  "correlations": [
+    {
+      "indicator_x": "ecommerce",
+      "indicator_y": "ict_structure",
+      "n": 31,
+      "pearson": 0.6057479733865222,
+      "spearman": 0.4983870967741937,
+      "time_note": "2024全年企业应用/2024年度法人结构/2024年末设施；非严格同日，不作因果"
+    },
+    {
+      "indicator_x": "ecommerce",
+      "indicator_y": "accounts",
+      "n": 31,
+      "pearson": 0.17900914985240624,
+      "spearman": 0.2673387096774194,
+      "time_note": "2024全年企业应用/2024年度法人结构/2024年末设施；非严格同日，不作因果"
+    },
+    {
+      "indicator_x": "ecommerce",
+      "indicator_y": "ports",
+      "n": 31,
+      "pearson": 0.21151906649751476,
+      "spearman": 0.1495967741935484,
+      "time_note": "2024全年企业应用/2024年度法人结构/2024年末设施；非严格同日，不作因果"
+    },
+    {
+      "indicator_x": "ict_structure",
+      "indicator_y": "accounts",
+      "n": 31,
+      "pearson": 0.1663264705181743,
+      "spearman": 0.21975806451612906,
+      "time_note": "2024全年企业应用/2024年度法人结构/2024年末设施；非严格同日，不作因果"
+    },
+    {
+      "indicator_x": "ict_structure",
+      "indicator_y": "ports",
+      "n": 31,
+      "pearson": 0.3323854638363808,
+      "spearman": 0.3233870967741936,
+      "time_note": "2024全年企业应用/2024年度法人结构/2024年末设施；非严格同日，不作因果"
+    },
+    {
+      "indicator_x": "accounts",
+      "indicator_y": "ports",
+      "n": 31,
+      "pearson": 0.6550555186317093,
+      "spearman": 0.6794354838709677,
+      "time_note": "2024全年企业应用/2024年度法人结构/2024年末设施；非严格同日，不作因果"
+    }
+  ],
+  "regional_statistics": [
+    {
+      "metric": "ecommerce",
+      "region": "东部",
+      "n": 10,
+      "mean": 13.827069446943932,
+      "median": 13.508928407116976,
+      "minimum": 8.532843661382548,
+      "maximum": 23.28700711053652,
+      "std_population": 4.046258422548652,
+      "loo_mean_min": 12.775965262100309,
+      "loo_mean_max": 14.41531675645075
+    },
+    {
+      "metric": "ecommerce",
+      "region": "中部",
+      "n": 6,
+      "mean": 11.362758049144452,
+      "median": 12.228192070729829,
+      "minimum": 8.957682626286587,
+      "maximum": 13.256333408731056,
+      "std_population": 1.736621429524209,
+      "loo_mean_min": 10.984042977227132,
+      "loo_mean_max": 11.843773133716025
+    },
+    {
+      "metric": "ecommerce",
+      "region": "西部",
+      "n": 12,
+      "mean": 11.79567958839626,
+      "median": 11.400566243156376,
+      "minimum": 8.90073645687435,
+      "maximum": 16.998527658977775,
+      "std_population": 1.8966086859298965,
+      "loo_mean_min": 11.322693400161578,
+      "loo_mean_max": 12.058856236716434
+    },
+    {
+      "metric": "ecommerce",
+      "region": "东北",
+      "n": 3,
+      "mean": 8.129262819561863,
+      "median": 8.322524207414556,
+      "minimum": 7.68882175226586,
+      "maximum": 8.376442499005172,
+      "std_population": 0.3122157863429759,
+      "loo_mean_min": 8.005672979840208,
+      "loo_mean_max": 8.349483353209864
+    },
+    {
+      "metric": "ict_structure",
+      "region": "东部",
+      "n": 10,
+      "mean": 5.8119175852100495,
+      "median": 5.701358337436726,
+      "minimum": 3.8370301910043128,
+      "maximum": 9.298299850136456,
+      "std_population": 1.4280665061510276,
+      "loo_mean_min": 5.424541777996003,
+      "loo_mean_max": 6.031349517899574
+    },
+    {
+      "metric": "ict_structure",
+      "region": "中部",
+      "n": 6,
+      "mean": 4.796765903132905,
+      "median": 4.676271316460086,
+      "minimum": 3.8625695188530025,
+      "maximum": 6.178431932078348,
+      "std_population": 0.7039881703189227,
+      "loo_mean_min": 4.520432697343817,
+      "loo_mean_max": 4.983605179988887
+    },
+    {
+      "metric": "ict_structure",
+      "region": "西部",
+      "n": 12,
+      "mean": 3.560839452077858,
+      "median": 3.2581207659463454,
+      "minimum": 2.3666279936687915,
+      "maximum": 5.5458429504493445,
+      "std_population": 1.0845909921699226,
+      "loo_mean_min": 3.3803845885895414,
+      "loo_mean_max": 3.669404130115046
+    },
+    {
+      "metric": "ict_structure",
+      "region": "东北",
+      "n": 3,
+      "mean": 4.463775070939488,
+      "median": 4.274413434987236,
+      "minimum": 3.9120999666142033,
+      "maximum": 5.204811811217028,
+      "std_population": 0.5444687626007543,
+      "loo_mean_min": 4.093256700800719,
+      "loo_mean_max": 4.739612623102132
+    },
+    {
+      "metric": "accounts",
+      "region": "东部",
+      "n": 10,
+      "mean": 50.84642279772608,
+      "median": 52.02822580645161,
+      "minimum": 39.510954616588414,
+      "maximum": 58.13931297709923,
+      "std_population": 5.8017502724526455,
+      "loo_mean_min": 50.036101666684615,
+      "loo_mean_max": 52.10591926229692
+    },
+    {
+      "metric": "accounts",
+      "region": "中部",
+      "n": 6,
+      "mean": 47.74708834638883,
+      "median": 47.215922546593774,
+      "minimum": 44.765254626089614,
+      "maximum": 51.96145680222113,
+      "std_population": 2.7684061713641697,
+      "loo_mean_min": 46.90421465522237,
+      "loo_mean_max": 48.34345509044867
+    },
+    {
+      "metric": "accounts",
+      "region": "西部",
+      "n": 12,
+      "mean": 47.965981360937974,
+      "median": 50.23268717635089,
+      "minimum": 40.91084854994629,
+      "maximum": 53.141289437585726,
+      "std_population": 4.335066674659703,
+      "loo_mean_min": 47.49549880851546,
+      "loo_mean_max": 48.60735707102813
+    },
+    {
+      "metric": "accounts",
+      "region": "东北",
+      "n": 3,
+      "mean": 41.52850725252502,
+      "median": 41.99075602509079,
+      "minimum": 39.663357790246,
+      "maximum": 42.931407942238266,
+      "std_population": 1.373631050607133,
+      "loo_mean_min": 40.82705690766839,
+      "loo_mean_max": 42.46108198366453
+    },
+    {
+      "metric": "ports",
+      "region": "东部",
+      "n": 10,
+      "mean": 99.40138930375363,
+      "median": 98.1581795630634,
+      "minimum": 75.33748983464353,
+      "maximum": 124.92203898050973,
+      "std_population": 16.001138004363693,
+      "loo_mean_min": 96.56576156189185,
+      "loo_mean_max": 102.07515591143253
+    },
+    {
+      "metric": "ports",
+      "region": "中部",
+      "n": 6,
+      "mean": 75.95499981530214,
+      "median": 74.58153059024075,
+      "minimum": 67.82994341642453,
+      "maximum": 85.13637105993793,
+      "std_population": 7.314339346152502,
+      "loo_mean_min": 74.11872556637499,
+      "loo_mean_max": 77.58001109507768
+    },
+    {
+      "metric": "ports",
+      "region": "西部",
+      "n": 12,
+      "mean": 88.3378629809323,
+      "median": 87.56390966538103,
+      "minimum": 72.3860103626943,
+      "maximum": 107.65916889058332,
+      "std_population": 10.264458080727826,
+      "loo_mean_min": 86.58138062550948,
+      "loo_mean_max": 89.78803140077213
+    },
+    {
+      "metric": "ports",
+      "region": "东北",
+      "n": 3,
+      "mean": 83.5567609005443,
+      "median": 84.27708243418213,
+      "minimum": 73.67117860680092,
+      "maximum": 92.72202166064983,
+      "std_population": 7.794134657953273,
+      "loo_mean_min": 78.97413052049153,
+      "loo_mean_max": 88.49955204741599
+    }
+  ],
+  "d1_rank_changes": [
+    {
+      "short_name": "天津",
+      "ecommerce": 8.840207925470871,
+      "ict_structure": 5.685885990506467,
+      "rank_ecommerce": 27,
+      "rank_ict_structure": 7,
+      "rank_gap_ecommerce_ict": 20
+    },
+    {
+      "short_name": "辽宁",
+      "ecommerce": 8.322524207414556,
+      "ict_structure": 5.204811811217028,
+      "rank_ecommerce": 30,
+      "rank_ict_structure": 10,
+      "rank_gap_ecommerce_ict": 20
+    },
+    {
+      "short_name": "山东",
+      "ecommerce": 17.04092127407592,
+      "ict_structure": 4.333293285466795,
+      "rank_ecommerce": 2,
+      "rank_ict_structure": 18,
+      "rank_gap_ecommerce_ict": -16
+    },
+    {
+      "short_name": "云南",
+      "ecommerce": 12.317678218375798,
+      "ict_structure": 2.772732983814778,
+      "rank_ecommerce": 13,
+      "rank_ict_structure": 28,
+      "rank_gap_ecommerce_ict": -15
+    },
+    {
+      "short_name": "贵州",
+      "ecommerce": 11.95542557482856,
+      "ict_structure": 2.7147359469059014,
+      "rank_ecommerce": 16,
+      "rank_ict_structure": 29,
+      "rank_gap_ecommerce_ict": -13
+    },
+    {
+      "short_name": "青海",
+      "ecommerce": 11.407689863361933,
+      "ict_structure": 2.519245382760102,
+      "rank_ecommerce": 18,
+      "rank_ict_structure": 30,
+      "rank_gap_ecommerce_ict": -12
+    },
+    {
+      "short_name": "吉林",
+      "ecommerce": 7.68882175226586,
+      "ict_structure": 3.9120999666142033,
+      "rank_ecommerce": 31,
+      "rank_ict_structure": 20,
+      "rank_gap_ecommerce_ict": 11
+    },
+    {
+      "short_name": "河南",
+      "ecommerce": 8.957682626286587,
+      "ict_structure": 4.807361432041523,
+      "rank_ecommerce": 25,
+      "rank_ict_structure": 15,
+      "rank_gap_ecommerce_ict": 10
+    }
+  ],
+  "d2_rank_changes": [
+    {
+      "short_name": "北京",
+      "accounts": 45.44663307375172,
+      "ports": 99.56939990838295,
+      "rank_accounts": 20,
+      "rank_ports": 6,
+      "rank_gap_accounts_ports": 14
+    },
+    {
+      "short_name": "辽宁",
+      "accounts": 42.931407942238266,
+      "ports": 92.72202166064983,
+      "rank_accounts": 26,
+      "rank_ports": 12,
+      "rank_gap_accounts_ports": 14
+    },
+    {
+      "short_name": "江西",
+      "accounts": 48.74278098622835,
+      "ports": 68.78054198134163,
+      "rank_accounts": 16,
+      "rank_ports": 30,
+      "rank_gap_accounts_ports": -14
+    },
+    {
+      "short_name": "西藏",
+      "accounts": 43.02702702702703,
+      "ports": 89.45945945945945,
+      "rank_accounts": 25,
+      "rank_ports": 13,
+      "rank_gap_accounts_ports": 12
+    },
+    {
+      "short_name": "吉林",
+      "accounts": 39.663357790246,
+      "ports": 84.27708243418213,
+      "rank_accounts": 30,
+      "rank_ports": 19,
+      "rank_gap_accounts_ports": 11
+    },
+    {
+      "short_name": "广东",
+      "accounts": 39.510954616588414,
+      "ports": 83.44444444444446,
+      "rank_accounts": 31,
+      "rank_ports": 21,
+      "rank_gap_accounts_ports": 10
+    },
+    {
+      "short_name": "江苏",
+      "accounts": 57.36922355148957,
+      "ports": 93.9666901243256,
+      "rank_accounts": 2,
+      "rank_ports": 11,
+      "rank_gap_accounts_ports": -9
+    },
+    {
+      "short_name": "安徽",
+      "accounts": 51.96145680222113,
+      "ports": 85.13637105993793,
+      "rank_accounts": 8,
+      "rank_ports": 17,
+      "rank_gap_accounts_ports": -9
+    }
+  ],
+  "west_central": [
+    {
+      "metric": "ecommerce",
+      "scenario": "原全样本均值",
+      "west_mean": 11.79567958839626,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.432921539251808
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部内蒙古",
+      "west_mean": 11.876740691365775,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.5139826422213236
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部广西",
+      "west_mean": 11.839660886048733,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.4769028369042818
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部重庆",
+      "west_mean": 11.322693400161578,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": -0.04006464898287376
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部四川",
+      "west_mean": 11.672613482761886,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.3098554336174342
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部贵州",
+      "west_mean": 11.781157225993324,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.4183991768488724
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部云南",
+      "west_mean": 11.748225167489029,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.38546711834457703
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部西藏",
+      "west_mean": 11.832246585254937,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.4694885361104859
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部陕西",
+      "west_mean": 11.755195981409907,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.3924379322654552
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部甘肃",
+      "west_mean": 11.964896360005019,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.6021383108605676
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部青海",
+      "west_mean": 11.8309513815812,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.46819333243674777
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部宁夏",
+      "west_mean": 11.864917661967299,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.5021596128228474
+    },
+    {
+      "metric": "ecommerce",
+      "scenario": "仅删西部新疆",
+      "west_mean": 12.058856236716434,
+      "central_mean": 11.362758049144452,
+      "gap_west_minus_central": 0.696098187571982
+    },
+    {
+      "metric": "accounts",
+      "scenario": "原全样本均值",
+      "west_mean": 47.965981360937974,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": 0.21889301454914545
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部内蒙古",
+      "west_mean": 48.600318329489824,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": 0.8532299831009951
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部广西",
+      "west_mean": 47.77980114880556,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": 0.032712802416732245
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部重庆",
+      "west_mean": 47.74003324299532,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": -0.007055103393511786
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部四川",
+      "west_mean": 48.04258094468309,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": 0.2954925982942598
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部贵州",
+      "west_mean": 48.3201661949752,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": 0.5730778485863723
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部云南",
+      "west_mean": 48.60735707102813,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": 0.8602687246393046
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部西藏",
+      "west_mean": 48.41497720947534,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": 0.6678888630865103
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部陕西",
+      "west_mean": 47.66033373588423,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": -0.08675461050459887
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部甘肃",
+      "west_mean": 47.69304631341913,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": -0.05404203296969712
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部青海",
+      "west_mean": 47.595573105079666,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": -0.15151524130916272
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部宁夏",
+      "west_mean": 47.49549880851546,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": -0.2515895378733717
+    },
+    {
+      "metric": "accounts",
+      "scenario": "仅删西部新疆",
+      "west_mean": 47.64209022690478,
+      "central_mean": 47.74708834638883,
+      "gap_west_minus_central": -0.10499811948405124
+    }
+  ],
+  "derived_new_count": 31,
+  "new_collected_full31_count": 0
+}
