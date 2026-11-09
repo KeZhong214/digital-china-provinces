@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "stage": "stage4",
+    "n_provinces": 31,
+    "route": "方案B：31省分项画像 + 2024网上政府档级展示 + 典型地区案例；不合成三维综合总分",
+    "source_panel": "data/processed/stage3/indicator_review_panel_2024.csv + data/processed/stage2/single_indicator_panel.csv",
+    "d1_definition": "NBS_ECOM_SHARE = 有电子商务交易活动企业数 / 同表调查企业数 × 100，单位%",
+    "d1_period": "2024年全年（《中国统计年鉴2025》表16-39，来源E02）",
+    "d2_definition": "BB_ACCOUNTS_PER100 = 固定宽带账户万户 / 年末常住人口万人 × 100，单位户/百人",
+    "d2_period": "2024年末（《中国统计年鉴2025》表16-36、表2-5，来源I203/A01）",
+    "d3_definition": "2024年网上政府发展档级（优秀/良好/中等），调查窗口2024年9月上旬—10月上旬，来源S27；不转数值"
+  },
+  "national": {
+    "ecommerce_weighted_rate_pct": 12.7715,
+    "ecommerce_ent_national": 205026.0,
+    "survey_ent_national": 1605346.0,
+    "note": "全国合计=205026/1605346，为调查企业数加权口径，不是31省等权均值"
+  },
+  "descriptive": {
+    "d1": {
+      "metric": "d1",
+      "metric_label": "D1 调查企业交易型数字应用（企业电商参与比例）",
+      "unit": "%",
+      "n": 31,
+      "mean": 12.0124,
+      "median": 11.9554,
+      "sd_population": 3.1446,
+      "cv_pct": 26.1778,
+      "minimum": 7.6888,
+      "maximum": 23.287,
+      "range": 15.5982,
+      "p25": 9.4522,
+      "p75": 12.9616,
+      "iqr": 3.5093
+    },
+    "d2": {
+      "metric": "d2",
+      "metric_label": "D2 固定宽带接入配置（每百人固定宽带账户数）",
+      "unit": "户/百人",
+      "n": 31,
+      "mean": 48.2298,
+      "median": 48.7428,
+      "sd_population": 5.1406,
+      "cv_pct": 10.6585,
+      "minimum": 39.511,
+      "maximum": 58.1393,
+      "range": 18.6284,
+      "p25": 44.4176,
+      "p75": 51.7872,
+      "iqr": 7.3696
+    }
+  },
+  "region_orders": {
+    "d1_mean_order": [
+      "东部",
+      "西部",
+      "中部",
+      "东北"
+    ],
+    "d1_median_order": [
+      "东部",
+      "中部",
+      "西部",
+      "东北"
+    ],
+    "d2_mean_order": [
+      "东部",
+      "西部",
+      "中部",
+      "东北"
+    ],
+    "d2_median_order": [
+      "东部",
+      "西部",
+      "中部",
+      "东北"
+    ],
+    "d1_order_identical": false,
+    "d2_order_identical": true
+  },
+  "cases": {
+    "beijing": {
+      "d1": 23.287,
+      "d1_rank": 1,
+      "d2": 45.4466,
+      "d2_rank": 20,
+      "rank_gap": -19,
+      "tier": "优秀",
+      "region": "东部"
+    },
+    "hebei": {
+      "d1": 8.5328,
+      "d1_rank": 28,
+      "d2": 45.347,
+      "d2_rank": 21,
+      "rank_gap": 7,
+      "tier": "良好",
+      "region": "东部"
+    },
+    "ningxia": {
+      "d1": 11.0341,
+      "d1_rank": 21,
+      "d2": 53.1413,
+      "d2_rank": 5,
+      "rank_gap": 16,
+      "tier": "良好",
+      "region": "西部"
+    },
+    "guangdong": {
+      "d1": 12.7737,
+      "d1_rank": 9,
+      "d2": 39.511,
+      "d2_rank": 31,
+      "rank_gap": -22,
+      "tier": "优秀",
+      "region": "东部"
+    },
+    "chongqing": {
+      "d1": 16.9985,
+      "d1_rank": 3,
+      "d2": 50.4514,
+      "d2_rank": 13,
+      "rank_gap": -10,
+      "tier": "优秀",
+      "region": "西部"
+    },
+    "shandong": {
+      "d1": 17.0409,
+      "d1_rank": 2,
+      "d2": 48.0575,
+      "d2_rank": 17,
+      "rank_gap": -15,
+      "tier": "优秀",
+      "region": "东部"
+    },
+    "beijing_hebei_d1_gap_pp": 14.7542,
+    "beijing_hebei_d2_gap": 0.0996,
+    "guangdong_quality": {
+      "fixed_broadband_wan": 5049.5,
+      "gigabit_wan": 1503.5,
+      "gigabit_share_pct": 29.775225,
+      "source": "C303 广东省通信管理局2024年12月运行情况（同段原值）",
+      "note": "仅单省同段派生，不能用于31省质量排名"
+    }
+  },
+  "rank_gap": {
+    "mean_abs_gap": 9.2258,
+    "median_abs_gap": 8.0,
+    "max_abs_gap": 22,
+    "n_abs_ge_10": 15,
+    "n_abs_ge_15": 8,
+    "top5_gaps": [
+      {
+        "short_name": "广东",
+        "region_4": "东部",
+        "d1_rank": 9,
+        "d2_rank": 31,
+        "rank_gap_d1_minus_d2": -22
+      },
+      {
+        "short_name": "北京",
+        "region_4": "东部",
+        "d1_rank": 1,
+        "d2_rank": 20,
+        "rank_gap_d1_minus_d2": -19
+      },
+      {
+        "short_name": "天津",
+        "region_4": "东部",
+        "d1_rank": 27,
+        "d2_rank": 9,
+        "rank_gap_d1_minus_d2": 18
+      },
+      {
+        "short_name": "云南",
+        "region_4": "西部",
+        "d1_rank": 13,
+        "d2_rank": 29,
+        "rank_gap_d1_minus_d2": -16
+      },
+      {
+        "short_name": "新疆",
+        "region_4": "西部",
+        "d1_rank": 26,
+        "d2_rank": 10,
+        "rank_gap_d1_minus_d2": 16
+      }
+    ]
+  },
+  "correlation": {
+    "pearson": 0.179009,
+    "spearman": 0.267339,
+    "n": 31
+  },
+  "government_tiers": {
+    "national": {
+      "excellent": 13,
+      "good": 14,
+      "medium": 4,
+      "n": 31
+    },
+    "by_region": [
+      {
+        "region": "东部",
+        "n": 10,
+        "excellent": 7,
+        "good": 3,
+        "medium": 0,
+        "excellent_pct": 70.0,
+        "good_pct": 30.0,
+        "medium_pct": 0.0
+      },
+      {
+        "region": "中部",
+        "n": 6,
+        "excellent": 1,
+        "good": 5,
+        "medium": 0,
+        "excellent_pct": 16.6667,
+        "good_pct": 83.3333,
+        "medium_pct": 0.0
+      },
+      {
+        "region": "西部",
+        "n": 12,
+        "excellent": 5,
+        "good": 5,
+        "medium": 2,
+        "excellent_pct": 41.6667,
+        "good_pct": 41.6667,
+        "medium_pct": 16.6667
+      },
+      {
+        "region": "东北",
+        "n": 3,
+        "excellent": 0,
+        "good": 1,
+        "medium": 2,
+        "excellent_pct": 0.0,
+        "good_pct": 33.3333,
+        "medium_pct": 66.6667
+      },
+      {
+        "region": "全国31省",
+        "n": 31,
+        "excellent": 13,
+        "good": 14,
+        "medium": 4,
+        "excellent_pct": 41.9355,
+        "good_pct": 45.1613,
+        "medium_pct": 12.9032
+      }
+    ],
+    "medium_provinces": [
+      "辽宁",
+      "黑龙江",
+      "西藏",
+      "新疆"
+    ],
+    "excellent_provinces": [
+      "北京",
+      "内蒙古",
+      "上海",
+      "浙江",
+      "安徽",
+      "福建",
+      "山东",
+      "广东",
+      "海南",
+      "重庆",
+      "四川",
+      "贵州",
+      "云南"
+    ]
+  },
+  "fragility": {
+    "west_mean_d1": 11.7957,
+    "central_mean_d1": 11.3628,
+    "west_median_d1": 11.4006,
+    "central_median_d1": 12.2282,
+    "west_mean_d1_without_chongqing": 11.3227,
+    "note": "删重庆后西部D1均值低于中部（见stage3 leave_one_province_out），仅作单省影响诊断"
+  }
+}

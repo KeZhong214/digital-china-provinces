@@ -1,5 +1,7 @@
 # 数字中国的省际图景：第一阶段数据项目
 
+**第四阶段（研究整合与图表升级）已完成。** 研究路线锁定为方案B：31省分项画像 + 2024年网上政府档级展示 + 典型地区案例，**不合成三维综合总分、不生成综合排行榜**。优先阅读 `reports/stage4_summary.md`（含任务书五问回答与交付清单）、`reports/stage4_research_draft.md`（研究正文初稿）、`reports/figures_stage4/`（7张V1图，PNG 300dpi + PDF 矢量）；图表规范与索引见 `reports/figure_style_guide.md`、`reports/figure_index.md`；汇报大纲见 `reports/stage4_presentation_outline.md`；底表在 `data/processed/stage4/`。第四阶段脚本为 `scripts/stage4_build.py`、`stage4_style.py`、`stage4_figures.py`、`stage4_verify.py`（56项核对）。
+
 第二阶段研究已增补：优先阅读 `reports/stage2_summary.md`、`reports/stage2_indicator_shortlist.md`、`reports/stage2_preanalysis.md`。全部新增值在 `data/processed/stage2/new_values_31_provinces.csv`，四张分项图及PDF在 `reports/figures_stage2/`。第一阶段报告保留作为历史基线。
 
 第二阶段数据已并入现有候选库；下文的第一阶段 `pipeline.py build` 会重建第一阶段快照，不作为第二阶段入口。第二阶段研究脚本为 `stage2_update_data.py`、`stage2_preanalysis.py`、`stage2_reports.py`，未改变原表结构或进行工程重构。
